@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
-describe("My First Test", () => {
-  it("Visits the homepage and finds an element", () => {
+describe("Green Cart Test", () => {
+  it("Visits the homepage and stuff", () => {
     cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/");
     cy.get(".search-keyword").type("ca");
     cy.wait(2000);
